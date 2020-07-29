@@ -9,3 +9,9 @@ html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*::before,*::after{-w
 .radio-volume {
   max-width: 100px;
 }
+
+@media screen and (max-width: 767px) {
+  .radio-icon, .radio-volume {
+    display: none;
+  }
+}
